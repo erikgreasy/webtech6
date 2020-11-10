@@ -128,7 +128,6 @@ function handleNewData(e) {
     } else if( y1 <= minY ) {
         minY = parseFloat( y1 )
     }
-    // maxY = Math.max( parseInt(incomingData.y1), parseInt(incomingData.y2), maxY )
     var max = parseInt( incomingData.x ) + 1
     console.log(incomingData)
     trace1.x.push( incomingData.x )
@@ -154,24 +153,3 @@ function handleNewData(e) {
    
 }
 
-
-// var trace1 = {
-//     x: [1, 2, 3],
-//     y: [4, 5, 6],
-//     type: 'scatter'
-// };
-  
-//   var trace2 = {
-//     x: [1, 2, 3],
-//     y: [50, 60, 70],
-//     type: 'scatter'
-//   };
-  
-//   var data = [trace1, trace2];
-  
-//   var layout = {
-//     grid: {rows: 1, columns: 1},
-//   };
-  
-//   Plotly.newPlot(TESTER, data, layout);
-  
