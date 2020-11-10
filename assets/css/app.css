@@ -1,0 +1,18 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hide {
+  display: none !important;
+}
+
+.legend {
+  display: none !important;
+}
+
+amplitude-changer {
+  width: 300px;
+  height: 200px;
+  background: red;
+}
+/*# sourceMappingURL=app.css.map */
